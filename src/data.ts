@@ -1,0 +1,70 @@
+import { QuizCategory } from "./types";
+
+export const quizCategories: QuizCategory[] = [
+  {
+    id: "blood",
+    title: "Blood Physiology",
+    description: "Test your knowledge on blood composition, plasma proteins, and blood cells.",
+    icon: "Activity",
+    questions: [
+      { id: 1, text: "Blood is classified as:", options: [{ id: "A", text: "Epithelial tissue" }, { id: "B", text: "Muscle tissue" }, { id: "C", text: "Specialized connective tissue" }, { id: "D", text: "Nervous tissue" }], correctAnswerId: "C" },
+      { id: 2, text: "Plasma forms approximately:", options: [{ id: "A", text: "45% of blood" }, { id: "B", text: "55% of blood" }, { id: "C", text: "65% of blood" }, { id: "D", text: "75% of blood" }], correctAnswerId: "B" },
+      { id: 3, text: "Cells constitute about:", options: [{ id: "A", text: "35%" }, { id: "B", text: "40%" }, { id: "C", text: "45%" }, { id: "D", text: "55%" }], correctAnswerId: "C" },
+      { id: 4, text: "Which is the most abundant plasma protein?", options: [{ id: "A", text: "Globulin" }, { id: "B", text: "Fibrinogen" }, { id: "C", text: "Albumin" }, { id: "D", text: "Hemoglobin" }], correctAnswerId: "C" },
+      { id: 5, text: "Albumin represents about:", options: [{ id: "A", text: "38% of plasma proteins" }, { id: "B", text: "55% of plasma proteins" }, { id: "C", text: "7% of plasma proteins" }, { id: "D", text: "91% of plasma proteins" }], correctAnswerId: "B" },
+      { id: 6, text: "Albumin is mainly produced in the:", options: [{ id: "A", text: "Spleen" }, { id: "B", text: "Kidney" }, { id: "C", text: "Bone marrow" }, { id: "D", text: "Liver" }], correctAnswerId: "D" },
+      { id: 7, text: "The main function of albumin is:", options: [{ id: "A", text: "Blood clotting" }, { id: "B", text: "Oxygen transport" }, { id: "C", text: "Transport of insoluble molecules" }, { id: "D", text: "Immunity" }], correctAnswerId: "C" },
+      { id: 8, text: "Normal albumin level is:", options: [{ id: "A", text: "0.2–0.45 g/dL" }, { id: "B", text: "2–2.5 g/dL" }, { id: "C", text: "3.5–5 g/dL" }, { id: "D", text: "7–10 g/dL" }], correctAnswerId: "C" },
+      { id: 9, text: "Globulin accounts for approximately:", options: [{ id: "A", text: "7%" }, { id: "B", text: "20%" }, { id: "C", text: "38%" }, { id: "D", text: "55%" }], correctAnswerId: "C" },
+      { id: 10, text: "Globulin helps transport:", options: [{ id: "A", text: "Iron and hormones" }, { id: "B", text: "Oxygen only" }, { id: "C", text: "Calcium only" }, { id: "D", text: "Water only" }], correctAnswerId: "A" },
+      { id: 11, text: "Normal globulin level is:", options: [{ id: "A", text: "0.2–0.45 g/dL" }, { id: "B", text: "2–2.5 g/dL" }, { id: "C", text: "3.5–5 g/dL" }, { id: "D", text: "5–8 g/dL" }], correctAnswerId: "B" },
+      { id: 12, text: "Fibrinogen is mainly responsible for:", options: [{ id: "A", text: "Immunity" }, { id: "B", text: "Hormone transport" }, { id: "C", text: "Blood coagulation" }, { id: "D", text: "Oxygen transport" }], correctAnswerId: "C" },
+      { id: 13, text: "Fibrinogen constitutes approximately:", options: [{ id: "A", text: "7% of blood proteins" }, { id: "B", text: "38% of blood proteins" }, { id: "C", text: "55% of blood proteins" }, { id: "D", text: "91% of blood proteins" }], correctAnswerId: "A" },
+      { id: 14, text: "Water forms about _____ of plasma.", options: [{ id: "A", text: "55–60%" }, { id: "B", text: "65–70%" }, { id: "C", text: "75–80%" }, { id: "D", text: "91–92%" }], correctAnswerId: "D" },
+      { id: 15, text: "Which of the following is an electrolyte found in plasma?", options: [{ id: "A", text: "Bilirubin" }, { id: "B", text: "Sodium" }, { id: "C", text: "Insulin" }, { id: "D", text: "Glucose" }], correctAnswerId: "B" },
+      { id: 16, text: "Which gas is transported in plasma?", options: [{ id: "A", text: "Nitrogen only" }, { id: "B", text: "Oxygen and carbon dioxide" }, { id: "C", text: "Hydrogen only" }, { id: "D", text: "Helium" }], correctAnswerId: "B" },
+      { id: 17, text: "The average lifespan of RBCs is:", options: [{ id: "A", text: "7–10 days" }, { id: "B", text: "30 days" }, { id: "C", text: "120 days" }, { id: "D", text: "365 days" }], correctAnswerId: "C" },
+      { id: 18, text: "Red blood cells contain:", options: [{ id: "A", text: "Myoglobin" }, { id: "B", text: "Hemoglobin" }, { id: "C", text: "Fibrinogen" }, { id: "D", text: "Albumin" }], correctAnswerId: "B" },
+      { id: 19, text: "Old RBCs are removed mainly by:", options: [{ id: "A", text: "Digestive system" }, { id: "B", text: "Respiratory system" }, { id: "C", text: "Reticuloendothelial system" }, { id: "D", text: "Endocrine system" }], correctAnswerId: "C" },
+      { id: 20, text: "The primary function of RBCs is:", options: [{ id: "A", text: "Blood clotting" }, { id: "B", text: "Oxygen and carbon dioxide transport" }, { id: "C", text: "Antibody production" }, { id: "D", text: "Hormone secretion" }], correctAnswerId: "B" },
+      { id: 21, text: "Platelets originate from:", options: [{ id: "A", text: "Lymphocytes" }, { id: "B", text: "Erythrocytes" }, { id: "C", text: "Megakaryocytes" }, { id: "D", text: "Monocytes" }], correctAnswerId: "C" },
+      { id: 22, text: "Normal platelet lifespan is:", options: [{ id: "A", text: "1–2 days" }, { id: "B", text: "3–5 days" }, { id: "C", text: "7–10 days" }, { id: "D", text: "120 days" }], correctAnswerId: "C" },
+      { id: 23, text: "Normal platelet count is:", options: [{ id: "A", text: "50,000–100,000 /cmm" }, { id: "B", text: "150,000–450,000 /cmm" }, { id: "C", text: "500,000–700,000 /cmm" }, { id: "D", text: "1,000,000 /cmm" }], correctAnswerId: "B" },
+      { id: 24, text: "Platelet adhesion to injured vessels is mediated by:", options: [{ id: "A", text: "Hemoglobin" }, { id: "B", text: "Albumin" }, { id: "C", text: "Von Willebrand Factor (VWF)" }, { id: "D", text: "Insulin" }], correctAnswerId: "C" },
+      { id: 25, text: "Eosinophils typically increase in:", options: [{ id: "A", text: "Bacterial infection" }, { id: "B", text: "Viral infection" }, { id: "C", text: "Parasitic infection" }, { id: "D", text: "CML" }], correctAnswerId: "C" }
+    ]
+  },
+  {
+    id: "basic_clinical",
+    title: "Basic & Clinical Sciences",
+    description: "Quiz covering the differences and specialties within medical sciences.",
+    icon: "Stethoscope",
+    questions: [
+      { id: 1, text: "Basic sciences include all EXCEPT:", options: [{ id: "A", text: "Anatomy" }, { id: "B", text: "Physiology" }, { id: "C", text: "Surgery" }, { id: "D", text: "Biochemistry" }], correctAnswerId: "C" },
+      { id: 2, text: "Anatomy deals with the:", options: [{ id: "A", text: "Function of body parts" }, { id: "B", text: "Structure of body parts" }, { id: "C", text: "Drugs" }, { id: "D", text: "Diseases" }], correctAnswerId: "B" },
+      { id: 3, text: "Physiology is concerned with:", options: [{ id: "A", text: "Structure" }, { id: "B", text: "Function" }, { id: "C", text: "X-rays" }, { id: "D", text: "Skin" }], correctAnswerId: "B" },
+      { id: 4, text: "Pathology is the study of:", options: [{ id: "A", text: "Drugs" }, { id: "B", text: "Disease" }, { id: "C", text: "Childhood care" }, { id: "D", text: "Female organs" }], correctAnswerId: "B" },
+      { id: 5, text: "Biochemistry studies chemical reactions inside the:", options: [{ id: "A", text: "Hospital" }, { id: "B", text: "Organism" }, { id: "C", text: "Eye" }, { id: "D", text: "Skin" }], correctAnswerId: "B" },
+      { id: 6, text: "Pharmacology is the science of:", options: [{ id: "A", text: "Drugs" }, { id: "B", text: "Bones" }, { id: "C", text: "X-rays" }, { id: "D", text: "Surgery" }], correctAnswerId: "A" },
+      { id: 7, text: "Clinical sciences are divided into:", options: [{ id: "A", text: "Major and minor" }, { id: "B", text: "Basic and chemical" }, { id: "C", text: "Skin and eye" }, { id: "D", text: "Drugs and disease" }], correctAnswerId: "A" },
+      { id: 8, text: "Which one is a major clinical science?", options: [{ id: "A", text: "Dermatology" }, { id: "B", text: "Radiology" }, { id: "C", text: "Medicine" }, { id: "D", text: "Ophthalmology" }], correctAnswerId: "C" },
+      { id: 9, text: "Surgery uses mainly:", options: [{ id: "A", text: "Chemical reactions" }, { id: "B", text: "Operations" }, { id: "C", text: "X-rays" }, { id: "D", text: "Childhood care" }], correctAnswerId: "B" },
+      { id: 10, text: "Pediatrics deals with:", options: [{ id: "A", text: "Care of childhood" }, { id: "B", text: "Eye diseases" }, { id: "C", text: "Skin diseases" }, { id: "D", text: "Female organs" }], correctAnswerId: "A" },
+      { id: 11, text: "Gynecology is concerned with health of:", options: [{ id: "A", text: "Children" }, { id: "B", text: "Female organs" }, { id: "C", text: "Skin" }, { id: "D", text: "Skeleton" }], correctAnswerId: "B" },
+      { id: 12, text: "Dermatology deals with:", options: [{ id: "A", text: "Eye" }, { id: "B", text: "Skin, hair, and nail" }, { id: "C", text: "Bones" }, { id: "D", text: "Legal cases" }], correctAnswerId: "B" },
+      { id: 13, text: "Radiology uses:", options: [{ id: "A", text: "Drugs only" }, { id: "B", text: "X-rays" }, { id: "C", text: "Surgery only" }, { id: "D", text: "Anesthesia" }], correctAnswerId: "B" },
+      { id: 14, text: "Orthopedics is related to:", options: [{ id: "A", text: "Skeleton and associated structures" }, { id: "B", text: "Female organs" }, { id: "C", text: "Chemical reactions" }, { id: "D", text: "Childhood" }], correctAnswerId: "A" },
+      { id: 15, text: "Anesthesia attempts to eliminate:", options: [{ id: "A", text: "Disease" }, { id: "B", text: "Pain impulses" }, { id: "C", text: "X-rays" }, { id: "D", text: "Legal facts" }], correctAnswerId: "B" },
+      { id: 16, text: "Ophthalmology deals with diseases of the:", options: [{ id: "A", text: "Eye" }, { id: "B", text: "Skin" }, { id: "C", text: "Bone" }, { id: "D", text: "Kidney" }], correctAnswerId: "A" },
+      { id: 17, text: "Forensic medicine applies medical knowledge to:", options: [{ id: "A", text: "Childhood care" }, { id: "B", text: "Legal cases" }, { id: "C", text: "Drug treatment" }, { id: "D", text: "Eye function" }], correctAnswerId: "B" },
+      { id: 18, text: "Which is a sub-specialty?", options: [{ id: "A", text: "Medicine" }, { id: "B", text: "Surgery" }, { id: "C", text: "Dermatology" }, { id: "D", text: "Physiology" }], correctAnswerId: "C" },
+      { id: 19, text: "Which branch studies structure, function, and disease of the eye?", options: [{ id: "A", text: "Dermatology" }, { id: "B", text: "Ophthalmology" }, { id: "C", text: "Orthopedics" }, { id: "D", text: "Pharmacology" }], correctAnswerId: "B" },
+      { id: 20, text: "Which branch is related to correction/prevention of deformities?", options: [{ id: "A", text: "Orthopedics" }, { id: "B", text: "Pediatrics" }, { id: "C", text: "Anatomy" }, { id: "D", text: "Biochemistry" }], correctAnswerId: "A" },
+      { id: 21, text: "The science of drugs is:", options: [{ id: "A", text: "Pathology" }, { id: "B", text: "Pharmacology" }, { id: "C", text: "Physiology" }, { id: "D", text: "Anatomy" }], correctAnswerId: "B" },
+      { id: 22, text: "The study of disease is:", options: [{ id: "A", text: "Pathology" }, { id: "B", text: "Anatomy" }, { id: "C", text: "Radiology" }, { id: "D", text: "Medicine" }], correctAnswerId: "A" },
+      { id: 23, text: "The branch concerned with female organs is:", options: [{ id: "A", text: "Pediatrics" }, { id: "B", text: "Gynecology" }, { id: "C", text: "Surgery" }, { id: "D", text: "Orthopedics" }], correctAnswerId: "B" },
+      { id: 24, text: "Medical microbiology is listed under:", options: [{ id: "A", text: "Basic sciences" }, { id: "B", text: "Major clinical sciences" }, { id: "C", text: "Sub-specialties" }, { id: "D", text: "Legal medicine" }], correctAnswerId: "A" },
+      { id: 25, text: "Medicine, Surgery, Pediatrics, and Gynecology are examples of:", options: [{ id: "A", text: "Basic sciences" }, { id: "B", text: "Major clinical sciences" }, { id: "C", text: "Sub-specialties" }, { id: "D", text: "Laboratory sciences" }], correctAnswerId: "B" }
+    ]
+  }
+];

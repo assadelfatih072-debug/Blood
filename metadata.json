@@ -1,0 +1,6 @@
+{
+  "name": "Medical Sciences Quiz",
+  "description": "A quiz application featuring multiple choice questions on Blood and Basic Medical Sciences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
